@@ -9,6 +9,19 @@ Os dados foram retirados do [MovieLens 20M Dataset](https://grouplens.org/datase
 - `ratings.csv`: contém as avaliações feitas por usuários
 - `movies.csv`: contém os títulos e gêneros dos filmes
 
+# Sobre os dados
+
+Os arquivos `ratings.csv` e `movies.csv` foram baixados manualmente do [MovieLens 20M Dataset](https://grouplens.org/datasets/movielens/20m/).
+
+Por enquanto, os dados **não estão inclusos no repositório** por conta do tamanho (o arquivo de avaliações tem mais de 250 MB), então é necessário **fazer o upload manual** no Google Colab ao rodar o projeto.
+
+# Executar o projeto
+
+Você pode abrir e rodar o notebook diretamente no Google Colab clicando no botão abaixo:
+
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gabriel-Favoretto/analise-avaliacoes-filmes/blob/main/analise_avaliacoes_filmes.ipynb)
+
+
 # O que foi analisado
 
 - Distribuição das notas atribuídas pelos usuários
