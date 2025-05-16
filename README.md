@@ -19,7 +19,7 @@ Por enquanto, os dados **não estão inclusos no repositório** por conta do tam
 
 Você pode abrir e rodar o notebook diretamente no Google Colab clicando no botão abaixo:
 
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gabriel-Favoretto/analise-avaliacoes-filmes/blob/main/analise_avaliacoes_filmes.ipynb)
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gabriel-Favoretto/analise-avaliacoes-filmes/blob/main/An%C3%A1lise_de_Dados_de_Filmes_com_Pandas_(iniciante).ipynb)
 
 
 # O que foi analisado
