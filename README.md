@@ -1,57 +1,51 @@
 # Análise de Avaliações de Filmes
 
-Este projeto tem como objetivo analisar dados de avaliações de filmes feitas por usuários, utilizando Python com as bibliotecas **Pandas**, **Matplotlib** e **Seaborn**.
+Esse foi meu primeiro projeto de análise de dados com Python. A ideia aqui foi explorar um conjunto de avaliações de filmes feitas por usuários e começar a entender como trabalhar com bibliotecas como Pandas, Matplotlib e Seaborn.
 
-# Dados utilizados
+## Sobre os dados
 
-Os dados foram retirados do [MovieLens 20M Dataset](https://grouplens.org/datasets/movielens/), com os seguintes arquivos:
+Os dados foram retirados do [MovieLens 20M Dataset](https://grouplens.org/datasets/movielens/20m/), e usei dois arquivos principais:
 
-- `ratings.csv`: contém as avaliações feitas por usuários
-- `movies.csv`: contém os títulos e gêneros dos filmes
+- `ratings.csv`: contém as avaliações (notas) dos usuários  
+- `movies.csv`: traz os títulos e os gêneros dos filmes
 
-# Sobre os dados
+Por enquanto, os arquivos não estão incluídos no repositório por conta do tamanho (o de avaliações tem mais de 250 MB), então é preciso fazer o upload manual no Google Colab para rodar o notebook.
 
-Os arquivos `ratings.csv` e `movies.csv` foram baixados manualmente do [MovieLens 20M Dataset](https://grouplens.org/datasets/movielens/20m/).
+## Como rodar
 
-Por enquanto, os dados **não estão inclusos no repositório** por conta do tamanho (o arquivo de avaliações tem mais de 250 MB), então é necessário **fazer o upload manual** no Google Colab ao rodar o projeto.
+Você pode abrir e executar o notebook direto no Google Colab pelo link abaixo:
 
-# Executar o projeto
+[🔗 Abrir no Google Colab](https://colab.research.google.com/github/Gabriel-Favoretto/analise-avaliacoes-filmes/blob/main/Análise_de_Dados_de_Filmes_com_Pandas_(iniciante).ipynb)
 
-Você pode abrir e rodar o notebook diretamente no Google Colab clicando no botão abaixo:
+> Obs.: os arquivos `ratings.csv` e `movies.csv` precisam ser enviados manualmente ao Colab.
 
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gabriel-Favoretto/analise-avaliacoes-filmes/blob/main/An%C3%A1lise_de_Dados_de_Filmes_com_Pandas_(iniciante).ipynb)
+## O que foi analisado
 
+- Distribuição das notas dadas pelos usuários  
+- Evolução da quantidade de avaliações ao longo do tempo  
+- Filmes mais avaliados  
+- Comparação entre popularidade (quantidade de avaliações) e nota média  
+- Filmes que mantêm nota alta mesmo com grande volume de avaliações  
 
-# O que foi analisado
+## Principais insights
 
-- Distribuição das notas atribuídas pelos usuários
-- Evolução da quantidade de avaliações ao longo dos anos
-- Os filmes mais avaliados da base
-- Comparação entre popularidade (quantidade de avaliações) e nota média
-- Destaque para filmes com nota média alta mesmo com grande volume de avaliações
+- A maioria das notas fica entre 3 e 5, mostrando uma tendência mais positiva nas avaliações  
+- O volume de avaliações se manteve relativamente estável ao longo dos anos  
+- Filmes mais avaliados nem sempre têm as melhores notas  
+- Alguns filmes, como *The Shawshank Redemption*, conseguem manter nota média alta com muitas avaliações  
 
-# Principais insights
+## Ferramentas utilizadas
 
-- A maior parte das notas está entre 3 e 5, indicando uma tendência positiva nas avaliações.
-- O volume de avaliações se manteve relativamente estável ao longo dos anos.
-- Nem sempre os filmes mais avaliados são os mais bem avaliados.
-- Filmes como *The Shawshank Redemption* se destacam por manter nota média alta com muitas avaliações.
-
-# Ferramentas utilizadas
-
-- Python
-- Google Colab
-- Pandas
-- Matplotlib
+- Python  
+- Google Colab  
+- Pandas  
+- Matplotlib  
 - Seaborn
 
-# Como executar
+## Autor
 
-Este projeto foi desenvolvido no Google Colab. Basta abrir o notebook `analise_avaliacoes_filmes.ipynb` para visualizar e executar o código passo a passo.
-
-# Autor
-
-Gabriel Favoretto – https://www.linkedin.com/in/gabriel-favoretto-636a60173/
+Gabriel Favoretto  
+[LinkedIn](https://www.linkedin.com/in/gabriel-favoretto-636a60173/)
 
 
 
